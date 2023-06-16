@@ -1,11 +1,16 @@
 import React from 'react'
+import Zaheer_Nav from './Component/Zaheer_Nav'
+import Sameer from './Component/sameer'
+import Faizan from './Component/faizan'
+import Nabeel from './Component/nabeel'
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Zaheer_Nav />
+      <Sameer />
+      <Faizan />
+      <Nabeel />
     </div>
   )
 }
