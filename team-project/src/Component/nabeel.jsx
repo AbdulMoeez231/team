@@ -9,6 +9,7 @@ import { CiInstagram } from 'react-icons/ci'
 const nabeel = () => {
     return (
         <div>
+            <footer class="bg-[#0071dc] text-white pb-7">
             <footer class="bg-[#0071DC]  text-white pb-7">
                 <div class="container mx-auto px-4 py-6">
                     <div class="flex flex-wrap -mx-4">

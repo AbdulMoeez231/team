@@ -1,18 +1,25 @@
 import React from 'react'
-import Zaheer_Nav from './Component/Zaheer_Nav'
-import Sameer from './Component/sameer'
-import Faizan from './Component/faizan'
-import Nabeel from './Component/nabeel'
 import './App.css'
+
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Home from './Component/Home'
+import CaterogryPage from './Array/CaterogryPage'
 
 const App = () => {
   return (
-    <div>
-      <Zaheer_Nav />
-      <Sameer />
-      <Faizan />
-      <Nabeel />
-    </div>
+    <>
+
+    <BrowserRouter>
+      <Routes>
+
+      <Route path='/' element={<Home/>} />
+      <Route path='/caterogry/:id' element={<CaterogryPage/>} />
+
+      </Routes>
+    
+    </BrowserRouter>
+     
+    </>
   )
 }
 
