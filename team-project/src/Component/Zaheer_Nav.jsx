@@ -40,7 +40,7 @@ const Zaheer_Nav = () => {
             type="text"
             placeholder="Search everthing at shope online and in store"
           />
-          <button className="absolute top-[2.5] right-1 py-3 px-3 bg-yellow-500 rounded-full">
+          {/* <button className="absolute top-[2.5] right-1 py-3 px-3 bg-yellow-500 rounded-full"><button/> */}
 
           <button className="absolute top-[10px] right-1 py-3 px-3 bg-yellow-500 rounded-full">
             <BsSearch />
@@ -58,6 +58,7 @@ const Zaheer_Nav = () => {
       </nav>
     </>
   );
-};
+}
+
 
 export default Zaheer_Nav;
