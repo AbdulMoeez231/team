@@ -1,19 +1,17 @@
 import React from "react";
 import "../App.css";
-// import Logoimg from "../Images/shop.jpeg";
 import { BsSearch } from "react-icons/bs";
 import { FaBars } from "react-icons/fa";
 
 const Zaheer_Nav = () => {
   return (
     <>
-      <nav className="bg-[#0071DC] h-[15vh] flex justify-around items-center p-3">
+      <nav className=" bg-[#0071DC] h-[15vh] flex justify-around items-center p-3">
         <div className="logo h-[60px] w-[150px]  flex justify-center items-center">
           <h1 className="text-white text-[35px] font-bold">
             Shop <span className="text-yellow-400  rotate-class">e</span>
           </h1>
 
-          {/* <img  src={Logoimg} alt="" /> */}
         </div>
         <div className="select_bar border border-white h-[40px] w-[18%] flex justify-around items-center rounded lg:flex md:hidden sm:hidden">
           <BsSearch className="text-white" />
@@ -38,11 +36,11 @@ const Zaheer_Nav = () => {
         </div>
         <div className="search_bar  h-[60px] w-[550px] flex items-center relative">
           <input
-            className="h-[50px] w-full rounded-full p-3 text-[18px] focus:outline-none "
+            className="h-[50px] w-full rounded-full p-3 text-[18px] focus:outline-none ps-8"
             type="text"
             placeholder="Search everthing at shope online and in store"
           />
-          <button className="absolute top-2 right-1 py-3 px-3 bg-yellow-500 rounded-full">
+          <button className="absolute top-[2.5] right-1 py-3 px-3 bg-yellow-500 rounded-full">
             <BsSearch />
           </button>
         </div>

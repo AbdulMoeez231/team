@@ -149,8 +149,7 @@ const faizan = () => {
 
 
 <div className='rounded h-[max-content] grid'>
-<video className='rounded-lg' autoPlay loop  src={video1}></video>
-
+<video className=' rounded-lg border-none' autoPlay loop muted  src={video1}></video>
 </div>
 
 
