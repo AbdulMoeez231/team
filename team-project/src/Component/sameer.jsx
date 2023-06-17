@@ -56,7 +56,7 @@ const sameer = () => {
         {/* main column-2 */}
 
        
-        <div className="  col-span-2  py-4  " >
+        <div className="  col-span-2  py-4 pe-4  " >
 
 
         <div className="  overflow-hidden rounded-md  relative"  >
