@@ -9,7 +9,7 @@ const Zaheer_Nav = () => {
       <nav className=" bg-[#0071DC] h-[15vh] flex justify-around items-center p-3">
         <div className="logo h-[60px] w-[150px]  flex justify-center items-center">
           <h1 className="text-white text-[35px] font-bold">
-            Shop <span className="text-yellow-400  rotate-class">e</span>
+            Shop<span className="text-yellow-400  rotate-class">e</span>
           </h1>
 
         </div>
@@ -34,7 +34,7 @@ const Zaheer_Nav = () => {
             </option>
           </select>
         </div>
-        <div className="search_bar  h-[60px] w-[550px] flex items-center relative">
+        <div className="search_bar  h-[60px] w-[550px]   flex items-center relative lg:flex md:hidden sm:hidden">
           <input
             className="h-[50px] w-full rounded-full p-3 text-[18px] focus:outline-none ps-8"
             type="text"
@@ -46,7 +46,7 @@ const Zaheer_Nav = () => {
         </div>
         <div className="btn_box  h-[auto] w-[170px] flex justify-between items-center lg:flex md:hidden sm:hidden">
           <h1 className="text-white text-[18px]">login</h1>
-          <button className="py-1 px-5 rounded-full border border-3  border-white text-[18px] text-white ">
+          <button className="py-1 px-5 rounded-full border border-3 brdr  border-white text-[18px] text-white ">
             + Sell
           </button>
         </div>
