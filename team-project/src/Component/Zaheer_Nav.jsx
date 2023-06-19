@@ -2,41 +2,73 @@ import React from "react";
 import "../App.css";
 import { BsSearch } from "react-icons/bs";
 import { FaBars } from "react-icons/fa";
+import { Button, Modal, Input, Form, Select } from 'antd';
+import { useState } from 'react';
+import { json } from "react-router-dom";
 
 const Zaheer_Nav = () => {
+
+
+  const [inpVal, setInpVal] = useState({
+  })
+  const [category, setCategory] = useState("")
+
+  let changing = (e) => {
+    setInpVal({
+      ...inpVal, [e.target.name]: e.target.value
+    })
+  }
+
+  console.log(inpVal);
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const showModal = () => {
+    setIsModalOpen(true);
+  };
+  const handleOk = () => {
+    setIsModalOpen(false);
+    handleSubmit()
+  };
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
+  const handleCategory = (e) => {
+    setCategory(e)
+  }
+
+  const handleSubmit = () => {
+
+    let getData = JSON.parse(localStorage.getItem("CaterogryData"))
+    console.log(getData, "getData");
+    let categoryData = getData[category]
+
+    console.log(categoryData, 'selectedData');
+
+    categoryData.post.push(inpVal)
+
+    console.log(categoryData, 'updated data');
+
+    getData[category] = categoryData
+
+    console.log(getData, 'get data updates');
+
+    localStorage.setItem("CaterogryData", JSON.stringify(getData))
+
+
+  }
+
   return (
     <>
       <nav className=" bg-[#0071DC] h-[15vh] flex justify-around items-center p-3">
         <div className="logo h-[60px] w-[150px]  flex justify-center items-center">
           <h1 className="text-white text-[35px] font-bold">
-            Shop<span className="text-yellow-400  rotate-class">e</span>
+            Shop<span className="text-yellow-400">e</span>
           </h1>
 
         </div>
-        <div className="select_bar border border-white h-[40px] w-[18%] flex justify-around items-center rounded lg:flex md:hidden sm:hidden">
-          <BsSearch className="text-white" />
-          <select
-            name=""
-            id=""
-            className="h-[30px] w-[80%] bg-[#0071DC]  focus:outline-none text-white "
-          >
-            <option value="" className="py-2">
-              Pakistan
-            </option>
-            <option value="" className="py-2">
-              Lahore
-            </option>
-            <option value="" className="py-2">
-              Multan
-            </option>
-            <option value="" className="py-2">
-              Rawalpindi
-            </option>
-          </select>
-        </div>
-        <div className="search_bar  h-[60px] w-[550px]   flex items-center relative lg:flex md:hidden sm:hidden">
+        <div className="search_bar  h-[60px] w-[550px]  flex items-center relative lg:flex md:hidden sm:hidden">
           <input
-            className="h-[50px] w-full rounded-full p-3 text-[18px] focus:outline-none ps-8"
+            className="h-[40px] w-full rounded-full p-3 text-[18px] focus:outline-none ps-8"
             type="text"
             placeholder="Search everthing at shope online and in store"
           />
@@ -46,15 +78,41 @@ const Zaheer_Nav = () => {
             <BsSearch />
           </button>
         </div>
-        <div className="btn_box  h-[auto] w-[170px] flex justify-between items-center lg:flex md:hidden sm:hidden">
-          <h1 className="text-white text-[18px]">login</h1>
-          <button className="py-1 px-5 rounded-full border border-3 brdr  border-white text-[18px] text-white ">
-            + Sell
-          </button>
+        <div className="btn_box  h-[auto]">
+          <Button type="primary" onClick={showModal} className="brdr border border-white rounded-full">
+            <span className="mt-[-10px]">+ Sell</span>
+          </Button>
+          <Modal title="Enter Your Product Data" open={isModalOpen} onOk={handleOk} onCancel={handleCancel} footer={null}>
+            <Form>
+              <Select defaultValue="carData" className="w-[100%]" onChange={handleCategory}>
+                <option value="carData">Car</option>
+                <option value="bikeData">Bike</option>
+                <option value="mobileData">Mobile</option>
+                <option value="laptopData">Laptop</option>
+                <option value="accessoriesData">Accessories</option>
+                <option value="shoeData">Shoes</option>
+                <option value="furnitureData">Furniture</option>
+                <option value="hardwareData">Hardware</option>
+              </Select>
+              <Input type="text" className="mt-4" onChange={changing} name="product" placeholder="Enter Your Product Name" />
+              <Input type="text" className="mt-4" onChange={changing} name="img" placeholder="Enter Your Product Image" />
+              <Input type="text" className="mt-4" onChange={changing} name="price" placeholder="Enter Your Price" />
+              <Input type="text" className="mt-4" onChange={changing} name="desc" placeholder="Enter Your Description" />
+              <Input type="text" className="mt-4" onChange={changing} name="number" placeholder="Enter Your Phone Number" />
+              <Input type="text" className="mt-4" onChange={changing} name="model" placeholder="Enter Your Model" />
+              <Input type="text" className="mt-4" onChange={changing} name="location" placeholder="Enter Your Location" />
+
+              <div className="flex justify-end gap-5 mt-5">
+                <Button onClick={handleCancel}>Cancel</Button>
+                <Button onClick={handleOk} className="bg-[#0071DC]" type="primary">Submit</Button>
+              </div>
+
+            </Form>
+          </Modal>
         </div>
-        <div className="h-[60px] w-[60px]  flex justify-center items-center  lg:hidden md:flex sm:flex   ">
+        {/* <div className="h-[60px] w-[60px]  flex justify-center items-center  lg:hidden md:flex sm:flex   ">
           <FaBars className="text-white text-[35px]" />
-        </div>
+        </div> */}
       </nav>
     </>
   );

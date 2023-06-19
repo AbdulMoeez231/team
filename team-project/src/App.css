@@ -1,11 +1,11 @@
 .brdr {
-  border-left: 5px solid red;
-  border-top: 5px solid cyan;
-  border-bottom: 5px solid rgb(224, 239, 19);
-  border-right: 5px solid rgb(225, 255, 0);
+  border-left: 3px solid red;
+  border-top: 3px solid cyan;
+  border-bottom: 3px solid rgb(224, 239, 19);
+  border-right: 3px solid rgb(225, 255, 0);
 }
 
-@media screen and (max-width: 645px) {
+/* @media screen and (max-width: 645px) {
   .select_bar {
     display: none;
   }
@@ -15,5 +15,5 @@
   .search_bar {
     display: none;
   }
-}
+} */
 

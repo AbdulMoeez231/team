@@ -10,6 +10,7 @@ const CaterogryData = {
                 model: '2020',
                 location: 'lahore',
                 desc: "ALL KINDS OF LATEST MODEL VEHICLES ARE AVAILABLE ",
+                number: "03334186908"
             }
             ,
             {
@@ -20,6 +21,7 @@ const CaterogryData = {
                 model: '2018',
                 location: 'multan',
                 desc: " VEHICLES ARE AVAILABLE FOR SELF DRIVE ",
+                number: "03334186908"
             },
             {
                 id: "faizan",
@@ -30,6 +32,7 @@ const CaterogryData = {
                 location: 'lahore',
 
                 desc: " VEHICLES ARE AVAILABLE FOR SELF DRIVE",
+                number: "03334186908"
             }
             ,
             {
@@ -40,6 +43,7 @@ const CaterogryData = {
                 model: '2020',
                 location: 'lahore',
                 desc: " VEHICLES ARE AVAILABLE FOR SELF DRIVE ",
+                number: "03334186908"
             },
             {
                 id: "faizan",
@@ -49,6 +53,7 @@ const CaterogryData = {
                 model: '2021',
                 location: 'lahore',
                 desc: " VEHICLES ARE AVAILABLE FOR SELF DRIVE ",
+                number: "03334186908"
             },
             {
                 id: "faizan",
@@ -58,6 +63,7 @@ const CaterogryData = {
                 model: '2023',
                 location: 'lahore',
                 desc: " VEHICLES ARE AVAILABLE cicvic new model ",
+                number: "03334186908"
             },
             {
                 id: "faizan",
@@ -67,6 +73,7 @@ const CaterogryData = {
                 model: '2023',
                 location: 'peshawar',
                 desc: "Harvel smooth drive for sale ",
+                number: "03334186908"
             }
             ,
             {
@@ -77,6 +84,7 @@ const CaterogryData = {
                 model: '2023',
                 location: 'karachi',
                 desc: " VEHICLES ARE AVAILABLE FOR SELF DRIVE",
+                number: "03334186908"
             },
         ]
     },
@@ -93,6 +101,7 @@ const CaterogryData = {
                 model: '2022',
                 location: 'lahore',
                 desc: "i3-1115G1 3.0 Ghz , 4 GB , 256 GB SSD, 14.0",
+                number: "03334186908"
             }
             ,
             {
@@ -103,6 +112,7 @@ const CaterogryData = {
                 model: '2018',
                 location: 'multan',
                 desc: "i3-1115G1 3.0 Ghz , 4 GB , 256 GB SSD, 14.0",
+                number: "03334186908"
             },
             {
                 id: "faizan",
@@ -111,8 +121,8 @@ const CaterogryData = {
                 price: "75,000",
                 model: '2023',
                 location: 'lahore',
-
-                desc: " the world’s smallest 14-inch laptop features an innovative webcam for high-quality video conferencing, the latest Intel processors and AI-based Dell"
+                desc: " the world’s smallest 14-inch laptop features an innovative webcam for high-quality video conferencing, the latest Intel processors and AI-based Dell",
+                number: "03334186908"
             }
             ,
             {
@@ -123,6 +133,7 @@ const CaterogryData = {
                 model: '2020',
                 location: 'lahore',
                 desc: " the world’s smallest 14-inch laptop features an innovative",
+                number: "03334186908"
             },
             {
                 id: "faizan",
@@ -132,6 +143,7 @@ const CaterogryData = {
                 model: '2015',
                 location: 'lahore',
                 desc: " mac avalible for sale ",
+                number: "03334186908"
             },
             {
                 id: "faizan",
@@ -141,6 +153,7 @@ const CaterogryData = {
                 model: '2019',
                 location: 'lahore',
                 desc: " mac avalible for sale in lahore",
+                number: "03334186908"
             },
             {
                 id: "faizan",
@@ -150,6 +163,7 @@ const CaterogryData = {
                 model: '2022',
                 location: 'peshawar',
                 desc: "lenovo laptop for sale in lahore and good condition ",
+                number: "03334186908"
             }
             ,
             {
@@ -160,11 +174,12 @@ const CaterogryData = {
                 model: '2023',
                 location: 'karachi',
                 desc: " lenovo laptops are avalible in low price",
+                number: "03334186908"
             }
         ]
     },
 
-    mobileData : {
+    mobileData: {
         post: [
             {
                 id: "zaheer",
@@ -174,8 +189,9 @@ const CaterogryData = {
                 price: "55,000",
                 location: "Karachi",
                 desc: "VIVO Mobile - Y16 (4GB, 64GB)",
-              },
-              {
+                number: "03334186908"
+            },
+            {
                 id: "zaheer",
                 img: "https://www.mega.pk/items_images/Vivo+V17+Pro+Mobile+8GB+RAM+128GB+Storage+Price+in+Pakistan%2C+Specifications%2C+Features_-_19451.webp",
                 product: "Vivo",
@@ -183,8 +199,9 @@ const CaterogryData = {
                 price: "64,999",
                 location: "Karachi",
                 desc: "VIVO Mobile - Y17 (8GB, 128GB)",
-              },
-              {
+                number: "03334186908"
+            },
+            {
                 id: "zaheer",
                 img: "https://sf.ezoiccdn.com/ezoimgfmt/i0.wp.com/aboutmobile.pk/wp-content/uploads/2022/05/infinix-Hot12.jpg?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-2&ssl=1&w=846",
                 product: "Infinix Hot 12",
@@ -192,8 +209,9 @@ const CaterogryData = {
                 price: "37,999",
                 location: "Karachi",
                 desc: "Infinix Mobile - Y16 (4GB, 6GB)",
-              },
-              {
+                number: "03334186908"
+            },
+            {
                 id: "zaheer",
                 img: "https://www.gizmochina.com/wp-content/uploads/2022/09/Infinix-Zero-20-.png",
                 product: "Infinix Zero 20, Note 12",
@@ -201,8 +219,9 @@ const CaterogryData = {
                 price: "102,999",
                 location: "Karachi",
                 desc: "Infinix Mobile - Y16 (8GB, 256GB)",
-              },
-              {
+                number: "03334186908"
+            },
+            {
                 id: "zaheer",
                 img: "https://g-mart.pk/wp-content/uploads/Google-Pixel-7-Pro-438x593.jpg",
                 product: "Google Pixel 7 Pro",
@@ -210,8 +229,9 @@ const CaterogryData = {
                 price: "248,390",
                 location: "Karachi",
                 desc: "Google Pixel 7 Pro (8GB, 128GB)",
-              },
-              {
+                number: "03334186908"
+            },
+            {
                 id: "zaheer",
                 img: "https://g-mart.pk/wp-content/uploads/Google-Pixel-5-438x593.jpg",
                 product: "Google Pixel 5",
@@ -219,8 +239,9 @@ const CaterogryData = {
                 price: "123,900",
                 location: "Karachi",
                 desc: "Google Pixel 5 (8GB, 128GB)",
-              },
-              {
+                number: "03334186908"
+            },
+            {
                 id: "zaheer",
                 img: "https://g-mart.pk/wp-content/uploads/Xiaomi_Redmi_Note_12-2-438x593.jpg",
                 product: "Xiaomi Redmi Note 12 ",
@@ -228,8 +249,9 @@ const CaterogryData = {
                 price: " 64,900",
                 location: "Karachi",
                 desc: "Xiaomi Redmi Note 12 (4GB, 128GB)",
-              },
-              {
+                number: "03334186908"
+            },
+            {
                 id: "zaheer",
                 img: "https://www.okmobile.com.pk/wp-content/uploads/2023/02/2-22.jpg",
                 product: "Xiaomi Redmi Note 11T Pro Plus ",
@@ -237,428 +259,469 @@ const CaterogryData = {
                 price: " 47999",
                 location: "Karachi",
                 desc: "Xiaomi Redmi Note 11T Pro Plus (8GB, 128GB)",
-              },
+                number: "03334186908"
+            },
         ]
     },
 
 
-    shoeData  : {
+    shoeData: {
         post: [
             {
-              id: "zaheer",
-              img: "https://static-01.daraz.pk/p/1dbddbb598c1d63d4395a8c4afe83bde.jpg",
-              product: "Shoe",
-              model: "New",
-              price: "799",
-              location: "Karachi",
-              desc: "Men's Running Shoes Men's Slip-on Shoes Tennis Walking Casual Shoes",
+                id: "zaheer",
+                img: "https://static-01.daraz.pk/p/1dbddbb598c1d63d4395a8c4afe83bde.jpg",
+                product: "Shoe",
+                model: "New",
+                price: "799",
+                location: "Karachi",
+                desc: "Men's Running Shoes Men's Slip-on Shoes Tennis Walking Casual Shoes",
+                number: "03334186908"
             },
             {
-              id: "zaheer",
-              img: "https://static-01.daraz.pk/p/bec26e2e92b07e010d737b1a0044e805.jpg",
-              product: "Khussa",
-              model: "New",
-              price: "1050",
-              location: "Karachi",
-              desc: "Arabic khussa for Men",
+                id: "zaheer",
+                img: "https://static-01.daraz.pk/p/bec26e2e92b07e010d737b1a0044e805.jpg",
+                product: "Khussa",
+                model: "New",
+                price: "1050",
+                location: "Karachi",
+                desc: "Arabic khussa for Men",
+                number: "03334186908"
             },
             {
-              id: "zaheer",
-              img: "https://static-01.daraz.pk/p/01bd2bdb99792a88bd16458246827803.jpg",
-              product: "KolaPuri",
-              model: "New",
-              price: "650",
-              location: "Karachi",
-              desc: "Black Velvet Kolapuri Chappal For Mens Kp-GKP1",
+                id: "zaheer",
+                img: "https://static-01.daraz.pk/p/01bd2bdb99792a88bd16458246827803.jpg",
+                product: "KolaPuri",
+                model: "New",
+                price: "650",
+                location: "Karachi",
+                desc: "Black Velvet Kolapuri Chappal For Mens Kp-GKP1",
+                number: "03334186908"
             },
             {
-              id: "zaheer",
-              img: "https://static-01.daraz.pk/p/a6539e0eef4c417ed369c4748a4e6b76.jpg",
-              product: "shoe",
-              model: "New",
-              price: "2,399",
-              location: "Karachi",
-              desc: "Hk Outfits - Swat Original Hiking Duty Boot",
+                id: "zaheer",
+                img: "https://static-01.daraz.pk/p/a6539e0eef4c417ed369c4748a4e6b76.jpg",
+                product: "shoe",
+                model: "New",
+                price: "2,399",
+                location: "Karachi",
+                desc: "Hk Outfits - Swat Original Hiking Duty Boot",
+                number: "03334186908"
             },
             {
-              id: "zaheer",
-              img: "https://static-01.daraz.pk/p/3f9988f3e342a437f419628293227438.jpg",
-              product: "Shoe",
-              model: "New",
-              price: "920",
-              location: "Karachi",
-              desc: "TRENDY WHITE CASUAL SNEAKER",
+                id: "zaheer",
+                img: "https://static-01.daraz.pk/p/3f9988f3e342a437f419628293227438.jpg",
+                product: "Shoe",
+                model: "New",
+                price: "920",
+                location: "Karachi",
+                desc: "TRENDY WHITE CASUAL SNEAKER",
+                number: "03334186908"
             },
             {
-              id: "zaheer",
-              img: "https://static-01.daraz.pk/p/6edfe4ed24496c82e65d761eea80d842.jpg",
-              product: "Shoe",
-              model: "New",
-              price: "1520",
-              location: "Karachi",
-              desc: "Formal shoes brown for men & boys. Dress shoes new designs synthetic",
+                id: "zaheer",
+                img: "https://static-01.daraz.pk/p/6edfe4ed24496c82e65d761eea80d842.jpg",
+                product: "Shoe",
+                model: "New",
+                price: "1520",
+                location: "Karachi",
+                desc: "Formal shoes brown for men & boys. Dress shoes new designs synthetic",
+                number: "03334186908"
             },
             {
-              id: "zaheer",
-              img: "https://static-01.daraz.pk/p/176d337c5e2991900cd5e58aaeb22a4d.jpg",
-              product: " shoe",
-              model: "New",
-              price: " 2,099",
-              location: "Karachi",
-              desc: "Nerozi Chappell for men",
+                id: "zaheer",
+                img: "https://static-01.daraz.pk/p/176d337c5e2991900cd5e58aaeb22a4d.jpg",
+                product: " shoe",
+                model: "New",
+                price: " 2,099",
+                location: "Karachi",
+                desc: "Nerozi Chappell for men",
+                number: "03334186908"
             },
             {
-              id: "zaheer",
-              img: "https://static-01.daraz.pk/p/5bf836cde930e3a0a894a49fedbe9086.jpg",
-              product: "Shoe ",
-              model: "New",
-              price: " 700",
-              location: "Karachi",
-              desc: "Sports Shoes for Gym Tennis Athletics Road Running Shoes",
+                id: "zaheer",
+                img: "https://static-01.daraz.pk/p/5bf836cde930e3a0a894a49fedbe9086.jpg",
+                product: "Shoe ",
+                model: "New",
+                price: " 700",
+                location: "Karachi",
+                desc: "Sports Shoes for Gym Tennis Athletics Road Running Shoes",
+                number: "03334186908"
             },
-          ]
+        ]
     },
 
 
-    bikeData  : {
+    bikeData: {
         post: [
             {
-                id:"Nabeel" ,
-                img:"https://images.pexels.com/photos/13038497/pexels-photo-13038497.jpeg?auto=compress&cs=tinysrgb&w=600" ,
-                product:"Bike" ,
-                price:'120000' ,
-                model:'Latest 2021' ,
-                location:'Rawalpindi' ,
-                desc:"Unique 70 2021 model" ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.pexels.com/photos/13038497/pexels-photo-13038497.jpeg?auto=compress&cs=tinysrgb&w=600",
+                product: "Bike",
+                price: '120000',
+                model: 'Latest 2021',
+                location: 'Rawalpindi',
+                desc: "Unique 70 2021 model",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/367871723-400x300.webp" ,
-                product:"Bike" ,
-                price:'61,000' ,
-                model:'Latest 2018' ,
-                location:'Lahore' ,
-                desc:"Honda 70" ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/367871723-400x300.webp",
+                product: "Bike",
+                price: '61,000',
+                model: 'Latest 2018',
+                location: 'Lahore',
+                desc: "Honda 70",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/347610153-400x300.webp" ,
-                product:"Bike" ,
-                price:'735,000' ,
-                model:'Latest 2021' ,
-                location:'Karachi' ,
-                desc:"Single cylinder Zongshen " ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/347610153-400x300.webp",
+                product: "Bike",
+                price: '735,000',
+                model: 'Latest 2021',
+                location: 'Karachi',
+                desc: "Single cylinder Zongshen ",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/334210937-400x300.webp" ,
-                product:"Bike" ,
-                price:'735,000' ,
-                model:'Latest 2013' ,
-                location:'New Yark' ,
-                desc:"Single cylinder brand " ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/334210937-400x300.webp",
+                product: "Bike",
+                price: '735,000',
+                model: 'Latest 2013',
+                location: 'New Yark',
+                desc: "Single cylinder brand ",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/364518393-400x300.webp" ,
-                product:"Bike" ,
-                price:'720,000' ,
-                model:'Yellow Latest' ,
-                location:'Wapda Town, Lahore' ,
-                desc:"kawasaki ninja new model" ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/364518393-400x300.webp",
+                product: "Bike",
+                price: '720,000',
+                model: 'Yellow Latest',
+                location: 'Wapda Town, Lahore',
+                desc: "kawasaki ninja new model",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/362149404-400x300.webp" ,
-                product:"Bike" ,
-                price:'650,000' ,
-                model:'Latest 2022' ,
-                location:'Thokar Niaz Baig, Lahore' ,
-                desc:"Kawasaki Replica 350cc 2022" ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/362149404-400x300.webp",
+                product: "Bike",
+                price: '650,000',
+                model: 'Latest 2022',
+                location: 'Thokar Niaz Baig, Lahore',
+                desc: "Kawasaki Replica 350cc 2022",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/364507994-400x300.webp" ,
-                product:"Bike" ,
-                price:'695,000' ,
-                model:'Latest 2021' ,
-                location:'Peshawar' ,
-                desc:"Heavy bike 250cc" ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/364507994-400x300.webp",
+                product: "Bike",
+                price: '695,000',
+                model: 'Latest 2021',
+                location: 'Peshawar',
+                desc: "Heavy bike 250cc",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/362198312-400x300.webp" ,
-                product:"Bike" ,
-                price:'500,000' ,
-                model:'Latest 2022' ,
-                location:'Karachi' ,
-                desc:"GR 150" ,
-        
-            } ,
-          ]
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/362198312-400x300.webp",
+                product: "Bike",
+                price: '500,000',
+                model: 'Latest 2022',
+                location: 'Karachi',
+                desc: "GR 150",
+                number: "03334186908"
+
+            },
+        ]
     },
 
     furnitureData: {
         post: [
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/368131878-400x300.webp" ,
-                product:"Furniture" ,
-                price:'120000' ,
-                model:'Latest 2021' ,
-                location:'Gulshan-e-Millat, Karachi' ,
-                desc:"Bed with 2tables & dressing table" ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/368131878-400x300.webp",
+                product: "Furniture",
+                price: '120000',
+                model: 'Latest 2021',
+                location: 'Gulshan-e-Millat, Karachi',
+                desc: "Bed with 2tables & dressing table",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/368024756-400x300.webp" ,
-                product:"Furniture" ,
-                price:'85,000' ,
-                model:'Latest 2018' ,
-                location:'Lahore , Gulberg' ,
-                desc:"Bed set for selling deco paints purple and white colur Almari 3doors" ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/368024756-400x300.webp",
+                product: "Furniture",
+                price: '85,000',
+                model: 'Latest 2018',
+                location: 'Lahore , Gulberg',
+                desc: "Bed set for selling deco paints purple and white colur Almari 3doors",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/345551969-400x300.webp" ,
-                product:"Furniture" ,
-                price:'735,000' ,
-                model:'Latest 2021' ,
-                location:'Karachi' ,
-                desc:"BED SET/SIDE TABLES/DRESSING TABLE " ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/345551969-400x300.webp",
+                product: "Furniture",
+                price: '735,000',
+                model: 'Latest 2021',
+                location: 'Karachi',
+                desc: "BED SET/SIDE TABLES/DRESSING TABLE ",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/367715436-400x300.webp" ,
-                product:"Furniture" ,
-                price:'60,000' ,
-                model:'Latest 2013' ,
-                location:'DHA City, Lahore' ,
-                desc:"Double bed and sides table dressing " ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/367715436-400x300.webp",
+                product: "Furniture",
+                price: '60,000',
+                model: 'Latest 2013',
+                location: 'DHA City, Lahore',
+                desc: "Double bed and sides table dressing ",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/368105032-400x300.webp" ,
-                product:"Furniture" ,
-                price:'720,000' ,
-                model:'Black Pairing' ,
-                location:'Sabzazar Scheme - Block N, Lahore' ,
-                desc:"Bunker Bed" ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/368105032-400x300.webp",
+                product: "Furniture",
+                price: '720,000',
+                model: 'Black Pairing',
+                location: 'Sabzazar Scheme - Block N, Lahore',
+                desc: "Bunker Bed",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/367807356-400x300.webp" ,
-                product:"Furniture" ,
-                price:'32,500' ,
-                model:'Latest 2022' ,
-                location:'Sabzazar, Lahore' ,
-                desc:"bed dressing side table" ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/367807356-400x300.webp",
+                product: "Furniture",
+                price: '32,500',
+                model: 'Latest 2022',
+                location: 'Sabzazar, Lahore',
+                desc: "bed dressing side table",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/368055392-400x300.webp" ,
-                product:"Furniture" ,
-                price:'40,000' ,
-                model:'Latest 2021' ,
-                location:'Peshawar' ,
-                desc:"Bed set" ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/368055392-400x300.webp",
+                product: "Furniture",
+                price: '40,000',
+                model: 'Latest 2021',
+                location: 'Peshawar',
+                desc: "Bed set",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/368097111-400x300.webp" ,
-                product:"Furniture" ,
-                price:'35,000' ,
-                model:'Latest 2022' ,
-                location:'Karachi' ,
-                desc:"Bed set simple & Attractive beautiful Polish tone" ,
-        
-            } ,
-          ]
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/368097111-400x300.webp",
+                product: "Furniture",
+                price: '35,000',
+                model: 'Latest 2022',
+                location: 'Karachi',
+                desc: "Bed set simple & Attractive beautiful Polish tone",
+                number: "03334186908"
+
+            },
+        ]
     },
 
-    accessoriesData : {
+    accessoriesData: {
         post: [
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/368137357-400x300.webp" ,
-                product:"Mobile Accessories" ,
-                price:'5,500' ,
-                model:'Latest 2021' ,
-                location:'Mansehra, Khyber Pakhtunkhwa' ,
-                desc:"Mic Dual" ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/368137357-400x300.webp",
+                product: "Mobile Accessories",
+                price: '5,500',
+                model: 'Latest 2021',
+                location: 'Mansehra, Khyber Pakhtunkhwa',
+                desc: "Mic Dual",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/368029248-400x300.webp" ,
-                product:"Mobile Accessories" ,
-                price:'2,250' ,
-                model:'Latest 2018' ,
-                location:'North Nazimabad - Block H, Karachi' ,
-                desc:"Apple Original Handfree to Lightning" ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/368029248-400x300.webp",
+                product: "Mobile Accessories",
+                price: '2,250',
+                model: 'Latest 2018',
+                location: 'North Nazimabad - Block H, Karachi',
+                desc: "Apple Original Handfree to Lightning",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/367721589-400x300.webp" ,
-                product:"Mobile Accessories" ,
-                price:'1,850' ,
-                model:'Latest 2023' ,
-                location:'Garden West, Karachi' ,
-                desc:"TWS M10 Original Ear buds " ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/367721589-400x300.webp",
+                product: "Mobile Accessories",
+                price: '1,850',
+                model: 'Latest 2023',
+                location: 'Garden West, Karachi',
+                desc: "TWS M10 Original Ear buds ",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/320617082-400x300.webp" ,
-                product:"Mobile Accessories" ,
-                price:'2,200' ,
-                model:'Latest 2013' ,
-                location:'Shalimar Link Road, Lahore' ,
-                desc:"Mi 33 waat pair 100% original " ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/320617082-400x300.webp",
+                product: "Mobile Accessories",
+                price: '2,200',
+                model: 'Latest 2013',
+                location: 'Shalimar Link Road, Lahore',
+                desc: "Mi 33 waat pair 100% original ",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/366474698-400x300.webp" ,
-                product:"Mobile Accessories" ,
-                price:'15,000' ,
-                model:'Black Pairing' ,
-                location:'Chah Sultan, Rawalpindi' ,
-                desc:"Audonic Flex 600 Speakers plus Boffer" ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/366474698-400x300.webp",
+                product: "Mobile Accessories",
+                price: '15,000',
+                model: 'Black Pairing',
+                location: 'Chah Sultan, Rawalpindi',
+                desc: "Audonic Flex 600 Speakers plus Boffer",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/178635213-400x300.webp" ,
-                product:"Mobile Accessories" ,
-                price:' 900' ,
-                model:'Latest 2022' ,
-                location:'Model Colony - Malir, Karachi' ,
-                desc:"Oneplus cover,pouch,case for 5,5t,6,6t,7t,7 pro,7t pro,McLaren,8,8 pro" ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/178635213-400x300.webp",
+                product: "Mobile Accessories",
+                price: ' 900',
+                model: 'Latest 2022',
+                location: 'Model Colony - Malir, Karachi',
+                desc: "Oneplus cover,pouch,case for 5,5t,6,6t,7t,7 pro,7t pro,McLaren,8,8 pro",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/368139409-400x300.webp" ,
-                product:"Mobile Accessories" ,
-                price:'7,999' ,
-                model:'Latest 2021' ,
-                location:'Old Clifton, Karachi' ,
-                desc:"LED M150 On-Camera Video Light for Mobile Phones ag05 x06" ,
-        
-            } ,
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/368139409-400x300.webp",
+                product: "Mobile Accessories",
+                price: '7,999',
+                model: 'Latest 2021',
+                location: 'Old Clifton, Karachi',
+                desc: "LED M150 On-Camera Video Light for Mobile Phones ag05 x06",
+                number: "03334186908"
+
+            },
             {
-                id:"Nabeel" ,
-                img:"https://images.olx.com.pk/thumbnails/368142243-400x300.webp" ,
-                product:"Mobile Accessories" ,
-                price:'7,999' ,
-                model:'Latest 2022' ,
-                location:'Delhi Mercentile Society' ,
-                desc:"LED M150 On-Camera Video Light for Mobile Phones ag05 o33" ,
-        
-            } ,
-          ]
+                id: "Nabeel",
+                img: "https://images.olx.com.pk/thumbnails/368142243-400x300.webp",
+                product: "Mobile Accessories",
+                price: '7,999',
+                model: 'Latest 2022',
+                location: 'Delhi Mercentile Society',
+                desc: "LED M150 On-Camera Video Light for Mobile Phones ag05 o33",
+                number: "03334186908"
+
+            },
+        ]
     },
 
-    hardwareData : {
+    hardwareData: {
         post: [
             {
-                id:"faizan",
-                img:"https://static-01.daraz.pk/p/8b7ab55a09fd862e6530365dc004b070.jpg",
-                product:"plas",
-                price:"300",
-                model:'new',
-                location:'lahore',
-                desc:"plas plumber",
+                id: "faizan",
+                img: "https://static-01.daraz.pk/p/8b7ab55a09fd862e6530365dc004b070.jpg",
+                product: "plas",
+                price: "300",
+                model: 'new',
+                location: 'lahore',
+                desc: "plas plumber",
+                number: "03334186908"
             }
             ,
             {
-                id:"faizan",
-                img:"https://www.ijunoon.com/sw-store/images/dictionary/screwdriver.jpg",
-                product:"paich-kas",
-                price:"150",
-                model:'new',
-                location:'multan',
-                desc:" paich-kas stocks are avalible",
+                id: "faizan",
+                img: "https://www.ijunoon.com/sw-store/images/dictionary/screwdriver.jpg",
+                product: "paich-kas",
+                price: "150",
+                model: 'new',
+                location: 'multan',
+                desc: " paich-kas stocks are avalible",
+                number: "03334186908"
             },
             {
-                id:"faizan",
-                img:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Claw-hammer.jpg/290px-Claw-hammer.jpg",
-                product:"hammer",
-                price:"7500", 
-                 model:'new',
-                location:'lahore',
-        
-                desc:" strong hammer"
+                id: "faizan",
+                img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Claw-hammer.jpg/290px-Claw-hammer.jpg",
+                product: "hammer",
+                price: "7500",
+                model: 'new',
+                location: 'lahore',
+                desc: " strong hammer",
+                number: "03334186908"
             }
             ,
             {
-                id:"faizan",
-                img:"https://d10mm2gps7of7f.cloudfront.net/product_files/162_aabfdffa-bdb8-4dcb-81fe-004a4b883b73.jpg",
-                product:"nose plass",
-                price:"280",
-                model:'new',
-                location:'lahore',
-                desc:" nose-plass avalible",
+                id: "faizan",
+                img: "https://d10mm2gps7of7f.cloudfront.net/product_files/162_aabfdffa-bdb8-4dcb-81fe-004a4b883b73.jpg",
+                product: "nose plass",
+                price: "280",
+                model: 'new',
+                location: 'lahore',
+                desc: " nose-plass avalible",
+                number: "03334186908"
             },
             {
-                id:"faizan",
-                img:"https://i.ebayimg.com/images/g/iJ8AAOSwVXdcHBaK/s-l1600.jpg",
-                product:"ranch",
-                price:"400",
-                model:'new',
-                location:'lahore',
-                desc:" ranch",
+                id: "faizan",
+                img: "https://i.ebayimg.com/images/g/iJ8AAOSwVXdcHBaK/s-l1600.jpg",
+                product: "ranch",
+                price: "400",
+                model: 'new',
+                location: 'lahore',
+                desc: " ranch",
+                number: "03334186908"
             },
             {
-                id:"faizan",
-                img:"https://pimdatacdn.bahco.com/media/sub574/16a0c23ccfd5a13f.png",
-                product:"Lkeys",
-                price:"150,000",
-                model:'news',
-                location:'lahore',
-                desc:" Lkeys",
+                id: "faizan",
+                img: "https://pimdatacdn.bahco.com/media/sub574/16a0c23ccfd5a13f.png",
+                product: "Lkeys",
+                price: "150,000",
+                model: 'news',
+                location: 'lahore',
+                desc: " Lkeys",
+                number: "03334186908"
             },
             {
-                id:"faizan",
-                img:"https://i0.wp.com/srtools.com.pk/wp-content/uploads/2021/01/Ring-Spanners-Set.jpg?fit=1200%2C1200&ssl=1",
-                product:"spanners",
-                price:"800",
-                model:'new',
-                location:'peshawar',
-                desc:"diffrent types of spaners",
+                id: "faizan",
+                img: "https://i0.wp.com/srtools.com.pk/wp-content/uploads/2021/01/Ring-Spanners-Set.jpg?fit=1200%2C1200&ssl=1",
+                product: "spanners",
+                price: "800",
+                model: 'new',
+                location: 'peshawar',
+                desc: "diffrent types of spaners",
+                number: "03334186908"
             }
             ,
             {
-                id:"faizan",
-                img:"https://pimdata.williams-industrial.com/media/sub468/169fff6d963a8d3f.png",
-                product:"bolt clipper",
-                price:"1300",
-                model:'new',
-                location:'karachi',
-                desc:" bolt clipper all types",
+                id: "faizan",
+                img: "https://pimdata.williams-industrial.com/media/sub468/169fff6d963a8d3f.png",
+                product: "bolt clipper",
+                price: "1300",
+                model: 'new',
+                location: 'karachi',
+                desc: " bolt clipper all types",
+                number: "03334186908"
             }
-          ]
+        ]
     }
 
 
 
 }
 
+localStorage.setItem("CaterogryData", JSON.stringify(CaterogryData))
 
 export default CaterogryData;
