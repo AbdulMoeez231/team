@@ -186,7 +186,7 @@ const CaterogryData = {
                 img: "https://modernelectronics.pk/wp-content/uploads/2023/03/Y16.jpg",
                 product: "Vivo",
                 model: "2023",
-                price: "55,000",
+                price: "55000",
                 location: "Karachi",
                 desc: "VIVO Mobile - Y16 (4GB, 64GB)",
                 number: "03334186908"
@@ -196,7 +196,7 @@ const CaterogryData = {
                 img: "https://www.mega.pk/items_images/Vivo+V17+Pro+Mobile+8GB+RAM+128GB+Storage+Price+in+Pakistan%2C+Specifications%2C+Features_-_19451.webp",
                 product: "Vivo",
                 model: "2022",
-                price: "64,999",
+                price: "64999",
                 location: "Karachi",
                 desc: "VIVO Mobile - Y17 (8GB, 128GB)",
                 number: "03334186908"
@@ -206,7 +206,7 @@ const CaterogryData = {
                 img: "https://sf.ezoiccdn.com/ezoimgfmt/i0.wp.com/aboutmobile.pk/wp-content/uploads/2022/05/infinix-Hot12.jpg?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-2&ssl=1&w=846",
                 product: "Infinix Hot 12",
                 model: "2023",
-                price: "37,999",
+                price: "37999",
                 location: "Karachi",
                 desc: "Infinix Mobile - Y16 (4GB, 6GB)",
                 number: "03334186908"
@@ -216,7 +216,7 @@ const CaterogryData = {
                 img: "https://www.gizmochina.com/wp-content/uploads/2022/09/Infinix-Zero-20-.png",
                 product: "Infinix Zero 20, Note 12",
                 model: "2023",
-                price: "102,999",
+                price: "102999",
                 location: "Karachi",
                 desc: "Infinix Mobile - Y16 (8GB, 256GB)",
                 number: "03334186908"
@@ -226,7 +226,7 @@ const CaterogryData = {
                 img: "https://g-mart.pk/wp-content/uploads/Google-Pixel-7-Pro-438x593.jpg",
                 product: "Google Pixel 7 Pro",
                 model: "2023",
-                price: "248,390",
+                price: "248390",
                 location: "Karachi",
                 desc: "Google Pixel 7 Pro (8GB, 128GB)",
                 number: "03334186908"
@@ -236,7 +236,7 @@ const CaterogryData = {
                 img: "https://g-mart.pk/wp-content/uploads/Google-Pixel-5-438x593.jpg",
                 product: "Google Pixel 5",
                 model: "2023",
-                price: "123,900",
+                price: "123900",
                 location: "Karachi",
                 desc: "Google Pixel 5 (8GB, 128GB)",
                 number: "03334186908"
@@ -246,7 +246,7 @@ const CaterogryData = {
                 img: "https://g-mart.pk/wp-content/uploads/Xiaomi_Redmi_Note_12-2-438x593.jpg",
                 product: "Xiaomi Redmi Note 12 ",
                 model: "2023",
-                price: " 64,900",
+                price: "64900",
                 location: "Karachi",
                 desc: "Xiaomi Redmi Note 12 (4GB, 128GB)",
                 number: "03334186908"
@@ -256,7 +256,7 @@ const CaterogryData = {
                 img: "https://www.okmobile.com.pk/wp-content/uploads/2023/02/2-22.jpg",
                 product: "Xiaomi Redmi Note 11T Pro Plus ",
                 model: "2023",
-                price: " 47999",
+                price: "47999",
                 location: "Karachi",
                 desc: "Xiaomi Redmi Note 11T Pro Plus (8GB, 128GB)",
                 number: "03334186908"

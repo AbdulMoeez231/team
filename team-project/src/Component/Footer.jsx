@@ -6,7 +6,7 @@ import { TbPlayerPlay } from 'react-icons/tb'
 import { CiInstagram } from 'react-icons/ci'
 
 
-const nabeel = () => {
+const Footer = () => {
     return (
         <div>
             <footer class="bg-[#0071DC]  text-white pb-7">
@@ -66,5 +66,5 @@ const nabeel = () => {
         </div>
     )
 }
-export default nabeel
+export default Footer
 

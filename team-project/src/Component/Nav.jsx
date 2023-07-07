@@ -6,7 +6,7 @@ import { Button, Modal, Input, Form, Select } from 'antd';
 import { useState } from 'react';
 import { json } from "react-router-dom";
 
-const Zaheer_Nav = () => {
+const Nav = () => {
 
 
   const [inpVal, setInpVal] = useState({
@@ -119,4 +119,4 @@ const Zaheer_Nav = () => {
 }
 
 
-export default Zaheer_Nav;
+export default Nav;

@@ -1,6 +1,6 @@
 import React from 'react'
 import video1 from '../Component/vidd.mp4'
-const faizan = () => {
+const Products = () => {
       return (
             <div>
                   <div className='p-4 grid lg:grid-cols-6 md:grid-cols-3 ms:grid-cols-1 place-items-center	'>
@@ -161,4 +161,4 @@ const faizan = () => {
       )
 }
 
-export default faizan
+export default Products

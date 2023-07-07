@@ -4,7 +4,7 @@ import Data from './Data'
 import { Link } from 'react-router-dom'
 
 
-const sameer = () => {
+const Banner = () => {
   return (
     <>
 
@@ -104,4 +104,4 @@ const sameer = () => {
   )
 }
 
-export default sameer
+export default Banner

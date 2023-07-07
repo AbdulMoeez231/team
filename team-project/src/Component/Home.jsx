@@ -1,18 +1,18 @@
 import '../App.css'
 import React from 'react'
-import Zaheer_Nav from '../Component/Zaheer_Nav'
-import Sameer from '../Component/sameer'
-import Faizan from '../Component/faizan'
-import Nabeel from '../Component/nabeel'
+import Nav from './Nav'
+import Banner from './Banner'
+import Products from './Products'
+import Footer from './Footer'
 
 
 const Home = () => {
   return (
     <>
-    <Zaheer_Nav />
-      <Sameer />
-      <Faizan />
-      <Nabeel />
+      <Nav />
+      <Banner />
+      <Products />
+      <Footer />
 
 
 
